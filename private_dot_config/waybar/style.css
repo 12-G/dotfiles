@@ -22,18 +22,12 @@ tooltip {
 
 #workspaces button {
     padding: 5px;
-    color: #313244;
+    color: #7f849c;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: #9370DB;
-    border-radius: 10px;
-}
-
-#workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: #89b4fa;
     border-radius: 10px;
 }
 
