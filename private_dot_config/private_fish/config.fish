@@ -5,13 +5,20 @@ end
 # Fish_greeting
 set -g fish_greeting
 
-# Environments
+# XDG
 set -gx XDG_CONFIG_HOME "$HOME/.config"
+set -gx XDG_CACHE_HOME "$HOME/.cache"
+set -gx XDG_DATA_HOME "$HOME/.local/share"
+
+# Cargo(Rust package manager)
 set -gx CARGO_HOME "$XDG_CONFIG_HOME/cargo"
+
+# Nimble
 set -gx nimbleDir "XDG_CONFIG_HOME/nimble/.nimble/"
 
-# Neovim
+# EDITOR
 set -gx EDITOR nvim
+set -gx VISUAL nvim
 
 # Make su launch fish
 function su
