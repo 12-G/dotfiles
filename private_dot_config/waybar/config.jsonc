@@ -19,7 +19,7 @@
 	"separate-outputs": true
     },
     "wlr/workspaces": {
-        "all-outputs": true,
+	"all-outputs": true,
 	"active-only": false,
         "on-click": "activate",
         "format": "{icon}",
