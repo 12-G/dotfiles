@@ -16,7 +16,7 @@ scrolling:
 
 font:
   normal:
-    family: JetBrainsMono Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Regular
   bold_italic:
     family: JetBrainsMono Nerd Font
