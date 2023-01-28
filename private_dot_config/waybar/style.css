@@ -75,7 +75,10 @@ tooltip {
 }
 
 #custom-weather {
-	color: #fab387;
+    color: #fab387;
+    border-radius: 10px 0 0 10px;
+    margin-left: 10px;
+    border-right: 0px;
 }
 
 #window {
