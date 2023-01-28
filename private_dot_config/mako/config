@@ -7,8 +7,8 @@ font=JetBrainsMono Nerd Font Mono:style=Bold Italic 12
 # Colors
 background-color=#303446
 text-color=#c6d0f5
-width=400
-height=80
+width=350
+height=100
 border-color=#8caaee
 border-radius=5
 progress-color=over #414559
@@ -24,7 +24,7 @@ text-alignment=left
 default-timeout=5000
 ignore-timeout=1
 layer=overlay
-anchor=bottom-right
+anchor=top-right
 
 [urgency=high]
 border-color=#ef9f76
