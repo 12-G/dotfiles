@@ -1,9 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: JetBrainsMono Nerd Font Mono;
+    font-family: JetBrainsMono Nerd Font;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     min-height: 0;
 }
 
@@ -38,6 +38,7 @@ tooltip {
 }
 
 #custom-language,
+#backlight,
 #window,
 #clock,
 #battery,
@@ -45,6 +46,7 @@ tooltip {
 #network,
 #workspaces,
 #tray,
+#custom-weather,
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
@@ -70,6 +72,10 @@ tooltip {
     color: #f38ba8;
     border-left: 0px;
     border-right: 0px;
+}
+
+#custom-weather {
+	color: #fab387;
 }
 
 #window {
