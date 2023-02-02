@@ -9,7 +9,7 @@ export HYPRLAND_LOG_WLR=1
 export XCUROSR_THEME=Catppuccin-Mocha-Lavender-Cursors
 
 # Set a cursor size
-export XCURSOR_SIZE=36
+export XCURSOR_SIZE=32
 
 # Example IME Support: fcitx5(copy to /etc/environment)
 export GTK_IM_MODULE=fcitx
