@@ -11,11 +11,10 @@ export XCUROSR_THEME=Catppuccin-Mocha-Lavender-Cursors
 # Set a cursor size
 export XCURSOR_SIZE=36
 
-# Example IME Support: fcitx5
-export INPUT_METHOD=fcitx5
-export GTK_IM_MODULE=fcitx5
-export QT_IM_MODULE=fcitx5
-export XMODIFIERS=\@im=fcitx5
+# Example IME Support: fcitx5(copy to /etc/environment)
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 export SDL_IM_MODULE=fcitx
 export GLFW_IM_MODULE=ibus
 
