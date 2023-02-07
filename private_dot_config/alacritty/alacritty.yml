@@ -1,6 +1,6 @@
-import: 
+#import:
 # - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
 # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
 # - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 
@@ -93,9 +93,9 @@ schemes:
       magenta: '0xbb9af7'
       cyan:    '0x0db9d7'
       white:   '0xacb0d0'
-#colors: *tokyo-night-storm 
+colors: *tokyo-night-storm
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-  # When set to 'true', selected text will be copied to the primary clipboard.
+  # When set to 'true', selected text will be copied to the primary clipboard
   save_to_clipboard: true
