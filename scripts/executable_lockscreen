@@ -14,7 +14,7 @@ swaylock -fFS \
   --indicator-caps-lock \
   --effect-vignette "0.5:0.5" \
   --color ${bg}E6 \
-  --font 'JetBrains Nerd Font' --font-size 50 \
+  --font 'FiraCode Nerd Font' --font-size 50 \
   --key-hl-color ${magenta} \
   --caps-lock-key-hl-color ${blue} \
   --bs-hl-color ${red} \
