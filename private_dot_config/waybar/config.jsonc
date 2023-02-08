@@ -7,7 +7,7 @@
     "modules-right": [
         "tray",
         "custom/language",
-	"custom/weather",
+        "custom/weather",
         "network",
         "backlight",
         "pulseaudio",
@@ -69,8 +69,8 @@
     "custom/weather": {
 	"tooltip": true,
 	"format": "{}",
-	"interval": 60,
-	"exec": "python ~/scripts/wttr.py",
+	"interval": 1800,
+	"exec": "$HOME/scripts/wttr.py",
 	"return-type": "json"
     },
     "clock": {
