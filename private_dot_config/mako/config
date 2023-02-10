@@ -3,7 +3,7 @@ max-history=10
 sort=-time
 # Style Options
 # Font
-font=JetBrainsMono Nerd Font Mono:style=Bold Italic 12
+font=Maple Mono SC NF
 # Colors
 background-color=#303446
 text-color=#c6d0f5
