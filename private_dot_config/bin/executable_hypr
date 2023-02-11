@@ -5,11 +5,26 @@ cd ~
 # Log WLR errors and logs to the hyprland log. Recommended
 export HYPRLAND_LOG_WLR=1
 
-# Tell XWayland to use a cursor theme
+# Theming Related Variables
 export XCUROSR_THEME=Catppuccin-Mocha-Lavender-Cursors
-
-# Set a cursor size
 export XCURSOR_SIZE=32
+
+# XDG Specifications
+export XDG_CURRENT_DESKTOP=Hyprland
+export XDG_SESSION_DESKTOP=Hyprland
+export XDG_SESSION_TYPE=wayland
+
+# QT Variables
+export QT_ATUO_SCREEN_SCALE_FACTOR=1
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Toolkt Backend Variables
+export _JAVA_AWT_WM_NONREPARENTING=1
+export SDL_VIDEODRIVER=wayland
+export GDK_BACKEND=wayland
+export GDK_SCALE=1
 
 # Example IME Support: fcitx5(copy to /etc/environment)
 export GTK_IM_MODULE=fcitx
@@ -17,7 +32,5 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export SDL_IM_MODULE=fcitx
 export GLFW_IM_MODULE=ibus
-
-export _JAVA_AWT_WM_NONREPARENTING=1
 
 exec Hyprland
