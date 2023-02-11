@@ -16,24 +16,24 @@
 
     "hyprland/window": {
         "format": "{}",
-	"separate-outputs": true
+        "separate-outputs": true
     },
     "wlr/workspaces": {
-	"all-outputs": true,
-	"active-only": false,
+        "all-outputs": true,
+        "active-only": false,
         "on-click": "activate",
         "format": "{icon}",
-	"format-icons": {
-		"1": " ",
-		"2": " ",
-		"3": " ",
-		"4": " ",
-		"5": " ",
-		"6": " ",
-		"7": " "
-  	},
-	"on-scroll-up": "hyprctl dispatch workspace e+1",
-	"on-scroll-down": "hyprctl dispatch workspace e-1"
+        "format-icons": {
+            "1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "6": " ",
+            "7": " "
+        },
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "custom/language": {
         "exec": "cat /tmp/kb_layout",
@@ -58,20 +58,20 @@
             "warning": 30,
             "critical": 20
         },
-	"interval": 10,
+        "interval": 10,
         "format": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", "", "", ""],
-	"on-click": "wlogout"
+        "on-click": "wlogout"
     },
     "custom/weather": {
-	"tooltip": true,
-	"format": "{}",
-	"interval": 1800,
-	"exec": "$HOME/scripts/wttr.py",
-	"return-type": "json"
+        "tooltip": true,
+        "format": "{}",
+        "interval": 1800,
+        "exec": "$HOME/scripts/wttr.py",
+        "return-type": "json"
     },
     "clock": {
         "format": "{: %R   %y/%m/%d}",
@@ -82,14 +82,14 @@
         "format-ethernet": " {essid}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "睊 Disconnected",
-        "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
+        "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed:{bandwidthUpBits}"
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
-	"format-bluetooth": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
         "format-muted": "ﱝ Muted",
         "scroll-step": 1,
-	"on-click": "pamixer -t",
+        "on-click": "pamixer -t",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
