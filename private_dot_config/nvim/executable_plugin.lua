@@ -1,0 +1,1 @@
+-- nvim-info: fold codes

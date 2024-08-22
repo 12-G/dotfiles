@@ -1,0 +1,4 @@
+[default]
+duration = "5m"
+mode = "center"
+path = "/home/ethan/Pictures/wallpapers"

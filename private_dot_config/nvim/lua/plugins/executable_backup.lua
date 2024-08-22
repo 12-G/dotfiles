@@ -1,0 +1,49 @@
+-- {
+--   "catppuccin/nvim",
+--   name = "catppuccin",
+--   opts = function()
+--     return require("plugins.config.ui").catppuccin
+--   end,
+--   config = function(_, opts)
+--     require("catppuccin").setup(opts)
+--     vim.cmd.colorscheme "catppuccin"
+--   end,
+--   lazy = false,
+-- },
+
+-- {
+--   "nvim-lualine/lualine.nvim",
+--   init = function()
+--     require("core.utils").lazy_load "lualine.nvim"
+--   end,
+--   opts = function()
+--     return require("plugins.config.lualine")
+--   end,
+--   config = function(_, opts)
+--     require("lualine").setup(opts)
+--   end,
+-- },
+-- {
+--   "rebelot/heirline.nvim",
+--   -- init = function()
+--   --   require("core.utils").lazy_load "lualine.nvim"
+--   -- end,
+--   event = "UiEnter",
+--   opts = function()
+--     return require("plugins.config.heirline")
+--   end,
+--   config = function(_, opts)
+--     require("lualine").setup(opts)
+--   end,
+-- },
+-- {
+--   "rebelot/kanagawa.nvim",
+--   lazy = false,
+--   opts = function ()
+--     return require("plugins.config.ui").kanagawa
+--   end,
+--   config = function(_, opts)
+--     require("kanagawa").setup(opts)
+--     vim.cmd.colorscheme "kanagawa"
+--   end,
+-- },
