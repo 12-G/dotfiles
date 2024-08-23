@@ -317,6 +317,17 @@ local plugins = {
 		cmd = "Telescope",
 		config = require("plugins.config.telescope").telescope,
 	},
+	{
+		"akinsho/toggleterm.nvim",
+		cmd = { "ToggleTerm", "TermExec" },
+		keys = {
+			{
+				"<leader>to",
+				"<cmd>ToggleTerm direction=float <CR>",
+			},
+		},
+		config = true,
+	},
 }
 
 local config = require("core.utils").load_config()
