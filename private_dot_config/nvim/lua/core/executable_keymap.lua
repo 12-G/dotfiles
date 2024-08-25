@@ -35,3 +35,19 @@ map("n", "<leader>fz", "<cmd> Telescope current_buffer_fuzzy_find <CR>")
 map("n", "<leader>gc", "<cmd> Telescope git_commits <CR>")
 map("n", "<leader>gt", "<cmd> Telescope git_status <CR>")
 map("n", "<leader>ma", "<cmd> Telescope marks <CR>")
+
+-- buffer
+-- close the current buffer
+map("n", "<leader>w", "<cmd>lua require('heirline-components.buffer').close(0) <CR>")
+-- close the chosen buffer
+map("n", "<leader>wd", function()
+	require("heirline-components.all").heirline.buffer_picker(function(bufnr)
+		require("heirline-components.buffer").close(bufnr)
+	end)
+end)
+map("n", "<Tab>", function()
+	require("heirline-components.buffer").nav(vim.v.count > 0 and vim.v.count or 1)
+end)
+map("n", "<S-Tab>", function()
+	require("heirline-components.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1))
+end)
