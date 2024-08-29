@@ -1,10 +1,4 @@
 local E = {}
-local merge_tb = vim.tbl_deep_extend -- its function could refer to nvchad docs
-
-E.load_config = function()
-	local config = require("core.config")
-	return config
-end
 
 E.lazy_load = function(plugin)
 	vim.api.nvim_create_autocmd({ "BufRead", "BufWinEnter", "BufNewFile" }, {
